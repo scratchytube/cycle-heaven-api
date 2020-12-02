@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_30_214459) do
+ActiveRecord::Schema.define(version: 2020_12_02_223554) do
+
+  create_table "lookbooks", force: :cascade do |t|
+    t.string "name"
+    t.string "imgUrl"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "modification_requests", force: :cascade do |t|
     t.string "time"
