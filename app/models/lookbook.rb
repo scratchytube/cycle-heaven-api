@@ -1,0 +1,2 @@
+class Lookbook < ApplicationRecord
+end

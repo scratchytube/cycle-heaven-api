@@ -97,4 +97,50 @@
     end
 
 
+lookbook = [
+    {
+        name:"Empty Road",
+        imageUrl:"https://images.unsplash.com/photo-1520153588489-ad09f2eb8c3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8YmlrZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Badass chick Riding",
+        imagueUrl: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJpa2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Ocean View",
+        imagueUrl: "https://images.unsplash.com/photo-1525099418218-6765735b4c56?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGJpa2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Suitman on bike",
+        imagueUrl: "https://images.unsplash.com/photo-1473768961734-a7222f539688?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTV8fGJpa2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Open Road",
+        imagueUrl: "https://images.unsplash.com/photo-1565703238937-c55c637ea33b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTEwfHxiaWtlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Repairing",
+        imagueUrl: "https://images.unsplash.com/photo-1565430414858-958049a669c3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTc4fHxiaWtlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+    },
+    {
+        name: "Brad Pitt",
+        imagueUrl: "https://gomotoriders.com/wp-content/uploads/2018/05/Bikes-in-Brad-Pitt’s-Collection-748x421.jpg"
+    },
+    {
+        name: "Looking out into the desert",
+        imagueUrl: "https://images.unsplash.com/photo-1560744085-4b1a76def5ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80"
+    },
+    {
+        name: "Batman",
+        imagueUrl: "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/02/640/320/Batman-.jpg?ve=1&tl=1"
+    },
+    {
+        name: "Arnold",
+        imagueUrl: "https://i.pinimg.com/originals/58/b5/b5/58b5b537fd6b802d14594572c46fa71b.jpg"
+    }
+]
 
+
+    lookbook.each do |lookbook_hash|
+    Lookbook.create!(lookbook_hash)
+    end
