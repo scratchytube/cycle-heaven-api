@@ -1,8 +1,13 @@
 class Api::V1::ModificationRequestsController < ApplicationController
-  
+  skip_before_action :verify_authenticity_token
   def index
     appointments = ModificationRequest.all
     render json: appointments
+  end
+
+  def new
+    appointment = ModificationRequest.new
+    render json: appointment
   end
 
   def show
@@ -30,6 +35,6 @@ class Api::V1::ModificationRequestsController < ApplicationController
   private
 
   def appointment_params
-    params.permit(:time, :day)
+    params.permit(:time, :day, :motorcycle_id)
   end
 end
