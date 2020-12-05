@@ -8,7 +8,7 @@
 
     # puts "deleting ol motorcycles"
     Motorcycle.destroy_all
-
+    ModificationRequest.destroy_all
     # Motorcycle.create!(
     #     maker: 'BMW',
     #     name: 'R9-T',
