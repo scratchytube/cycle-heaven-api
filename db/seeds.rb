@@ -3,25 +3,13 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
 
     # puts "deleting ol motorcycles"
     Motorcycle.destroy_all
     ModificationRequest.destroy_all
     Lookbook.destroy_all
-    # Motorcycle.create!(
-    #     maker: 'BMW',
-    #     name: 'R9-T',
-    #     imageUrl: 'https://wallpaperaccess.com/full/46852.jpg',
-    #     year: '2015'
-    # )
-
-    # ModificationRequest.create!(
-    #     time: "04:20",
-    #     day: "Sunday",
-    #     motorcycle_id: Motorcycle.all.sample.id
-    # )
+    
 
     
     
@@ -37,16 +25,16 @@
     imageUrl: 'https://wallpaperaccess.com/full/46852.jpg'
 },
 {
-    maker: 'Ferrari',
-    name: 'v4',
-    year: '2025',
-    imageUrl: 'https://motorbeam.com/wp-content/uploads/2008/10/ferrari_v4_motorcycle.jpg'
+    maker: 'BMW',
+    name: 'R1',
+    year: '1997',
+    imageUrl: 'https://img.wallpapersafari.com/desktop/1280/1024/3/15/abCxQJ.jpg'
 },
 {
     maker: 'Triumph',
-    name: 'Scrambler',
+    name: 'Street Twin',
     year: '2019',
-    imageUrl: 'https://wallpaperaccess.com/full/1997373.jpg'
+    imageUrl: 'https://images.alphacoders.com/101/thumb-1920-1018522.jpg'
 },
 {
     maker: 'Harley',
@@ -73,16 +61,16 @@
     imageUrl: 'https://wallpaperaccess.com/full/724983.jpg'
 },
 {
-    maker: 'Confederate',
-    name: 'R131 Fighter',
-    year: '2020',
-    imageUrl: 'https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2016/03/vintage-motorcycles-gear-patrol-confederate.jpg?resize=768:*'
+    maker: 'Yamaha',
+    name: '650',
+    year: '2015',
+    imageUrl: 'https://wallpaperforu.com/wp-content/uploads/2020/09/bike-wallpaper-20091713464654-scaled.jpg'
 },
 {
     maker: 'Batman',
     name: 'Bat Bike',
     year: '2016',
-    imageUrl: 'https://static.highsnobiety.com/thumbor/95X8uHrSUrmE9xT61RC5Wrn38gY=/800x480/static.highsnobiety.com/wp-content/uploads/2016/09/02210042/batman-batpod-motorcycle-auction-00.jpg'
+    imageUrl: 'https://wallpaperaccess.com/full/113042.jpg'
 },
 {
     maker: 'Tesla',
@@ -136,8 +124,8 @@ lookbooks = [
         imgUrl: "https://wallpaperaccess.com/full/3908278.jpg"
     },
     {
-        name: "Arnold",
-        imgUrl: "https://c4.wallpaperflare.com/wallpaper/367/301/208/movies-terminator-2-arnold-schwarzenegger-monochrome-wallpaper-preview.jpg"
+        name: "KTM",
+        imgUrl: "https://badasshelmetstore.com/wp-content/uploads/2020/08/wallpaperflare.com_wallpaper-12-3-1400x788.jpg"
     }
 ]
 
