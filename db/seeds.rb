@@ -9,6 +9,7 @@
     # puts "deleting ol motorcycles"
     Motorcycle.destroy_all
     ModificationRequest.destroy_all
+    Lookbook.destroy_all
     # Motorcycle.create!(
     #     maker: 'BMW',
     #     name: 'R9-T',
@@ -119,24 +120,24 @@ lookbooks = [
         imgUrl: "https://images.unsplash.com/photo-1565703238937-c55c637ea33b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTEwfHxiaWtlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
     },
     {
-        name: "Repairing",
-        imgUrl: "https://images.unsplash.com/photo-1565430414858-958049a669c3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTc4fHxiaWtlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=60"
+        name: "CyberPunk",
+        imgUrl: 'https://images2.alphacoders.com/105/thumb-1920-1054533.jpg'
     },
     {
-        name: "Brad Pitt",
-        imgUrl: "https://gomotoriders.com/wp-content/uploads/2018/05/Bikes-in-Brad-Pitt’s-Collection-748x421.jpg"
+        name: "Race in the snow",
+        imgUrl: "https://images3.alphacoders.com/809/thumb-1920-809002.jpg"
     },
     {
-        name: "Looking out into the desert",
-        imgUrl: "https://images.unsplash.com/photo-1560744085-4b1a76def5ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80"
+        name: "SuitMen",
+        imgUrl: "https://64.media.tumblr.com/51767e10d192b760f5ae4069d217a66a/tumblr_pznx6jKEX61ufm7yqo1_1280.jpg"
     },
     {
         name: "Batman",
-        imgUrl: "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/02/640/320/Batman-.jpg?ve=1&tl=1"
+        imgUrl: "https://wallpaperaccess.com/full/3908278.jpg"
     },
     {
         name: "Arnold",
-        imgUrl: "https://i.pinimg.com/originals/58/b5/b5/58b5b537fd6b802d14594572c46fa71b.jpg"
+        imgUrl: "https://c4.wallpaperflare.com/wallpaper/367/301/208/movies-terminator-2-arnold-schwarzenegger-monochrome-wallpaper-preview.jpg"
     }
 ]
 
