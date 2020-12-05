@@ -1,5 +1,6 @@
 class Api::V1::ModificationRequestsController < ApplicationController
   skip_before_action :verify_authenticity_token
+  
   def index
     appointments = ModificationRequest.all
     render json: appointments
