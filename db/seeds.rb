@@ -25,10 +25,10 @@
     imageUrl: 'https://wallpaperaccess.com/full/46852.jpg'
 },
 {
-    maker: 'BMW',
-    name: 'R1',
-    year: '1997',
-    imageUrl: 'https://img.wallpapersafari.com/desktop/1280/1024/3/15/abCxQJ.jpg'
+    maker: 'Ducati',
+    name: 'Monster 821',
+    year: '2015',
+    imageUrl: 'https://vistapointe.net/images/ducati-monster-1.jpg'
 },
 {
     maker: 'Triumph',
@@ -37,16 +37,22 @@
     imageUrl: 'https://images.alphacoders.com/101/thumb-1920-1018522.jpg'
 },
 {
+    maker: 'BMW',
+    name: 'Motorrad Vision Next 100',
+    year: '2030',
+    imageUrl: 'https://i.ytimg.com/vi/we8pLMvrWtQ/maxresdefault.jpg'
+},
+{
     maker: 'Harley',
     name: '48',
     year: '2015',
     imageUrl: 'https://wallpaperaccess.com/full/20764.jpg'
 },
 {
-    maker: 'BMW',
-    name: 'Motorrad Vision Next 100',
-    year: '2030',
-    imageUrl: 'https://i.ytimg.com/vi/we8pLMvrWtQ/maxresdefault.jpg'
+    maker: 'Batman',
+    name: 'Bat Bike',
+    year: '2016',
+    imageUrl: 'https://wallpaperaccess.com/full/113042.jpg'
 },
 {
     maker: 'Yamaha',
@@ -65,12 +71,6 @@
     name: '650',
     year: '2015',
     imageUrl: 'https://wallpaperforu.com/wp-content/uploads/2020/09/bike-wallpaper-20091713464654-scaled.jpg'
-},
-{
-    maker: 'Batman',
-    name: 'Bat Bike',
-    year: '2016',
-    imageUrl: 'https://wallpaperaccess.com/full/113042.jpg'
 },
 {
     maker: 'Tesla',
@@ -117,7 +117,7 @@ lookbooks = [
     },
     {
         name: "SuitMen",
-        imgUrl: "https://64.media.tumblr.com/51767e10d192b760f5ae4069d217a66a/tumblr_pznx6jKEX61ufm7yqo1_1280.jpg"
+        imgUrl: "https://media.gq.com/photos/57e94cc8436f78925d2b27fa/master/pass/gentlemens-ride-2016-03.jpg"
     },
     {
         name: "Batman",
