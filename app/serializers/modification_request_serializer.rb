@@ -1,3 +1,3 @@
 class ModificationRequestSerializer < ActiveModel::Serializer
-  attributes :id, :time, :day, :motorcycle_id
+  attributes :id, :time, :day, :description, :motorcycle_id
 end

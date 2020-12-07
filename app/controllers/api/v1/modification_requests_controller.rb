@@ -36,6 +36,6 @@ class Api::V1::ModificationRequestsController < ApplicationController
   private
 
   def appointment_params
-    params.permit(:time, :day, :motorcycle_id)
+    params.permit(:time, :day, :description, :motorcycle_id)
   end
 end
